@@ -12,12 +12,12 @@ if __name__ == "__main__":
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
-    from calculatot_1 import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
     a = int(sys.argv[1])
     b = int(sys.argv[3])
 
     if op == '+':
-         print("{} + {} = {}".format(a, b, add(a, b)))
+        print("{} + {} = {}".format(a, b, add(a, b)))
     elif op == '-':
         print("{} - {} = {}".format(a, b, sub(a, b)))
     elif op == '*':
