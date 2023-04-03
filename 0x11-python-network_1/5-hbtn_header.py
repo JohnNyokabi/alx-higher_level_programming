@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """takes in URL, sends request and displays the value of X-Request-Id"""
-import request
+import requests
 import sys
 
 
